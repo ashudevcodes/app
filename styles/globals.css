@@ -8,6 +8,19 @@
   src: url("../public/assets/fonts/Inter-VariableFont_slnt,wght.ttf");
 }
 
+@keyframes spin-custom {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+.spin-custom {
+  animation: spin-custom 2s infinite;
+}
+
 body {
   @apply font-normal;
   background-color: #f8f9fa;
